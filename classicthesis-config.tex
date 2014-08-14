@@ -14,8 +14,8 @@
 % 1. Configure classicthesis for your needs here, e.g., remove "drafting" below 
 % in order to deactivate the time-stamp on the pages
 % ****************************************************************************************************
-\PassOptionsToPackage{eulerchapternumbers,listings,drafting,%
-				 pdfspacing,%floatperchapter,%linedheaders,%
+\PassOptionsToPackage{eulerchapternumbers,listings,dottedtoc,drafting,%
+				 pdfspacing,floatperchapter,%linedheaders,%
 				 subfig,beramono,eulermath,parts}{classicthesis}										
 % ********************************************************************
 % Available options for classicthesis.sty 
@@ -32,26 +32,24 @@
 % ******************************************************************** 
 \usepackage{ifthen}
 \newboolean{enable-backrefs} % enable backrefs in the bibliography
-\setboolean{enable-backrefs}{false} % true false
+\setboolean{enable-backrefs}{true} % true false
 % ****************************************************************************************************
 
 
 % ****************************************************************************************************
 % 2. Personal data and user ad-hoc commands
 % ****************************************************************************************************
-\newcommand{\myTitle}{A Classic Thesis Style\xspace}
-\newcommand{\mySubtitle}{An Homage to The Elements of Typographic Style\xspace}
-\newcommand{\myDegree}{Doktor-Ingenieur (Dr.-Ing.)\xspace}
-\newcommand{\myName}{Andr\'e Miede\xspace}
-\newcommand{\myProf}{Put name here\xspace}
-\newcommand{\myOtherProf}{Put name here\xspace}
-\newcommand{\mySupervisor}{Put name here\xspace}
-\newcommand{\myFaculty}{Put data here\xspace}
-\newcommand{\myDepartment}{Put data here\xspace}
-\newcommand{\myUni}{Put data here\xspace}
-\newcommand{\myLocation}{Darmstadt\xspace}
-\newcommand{\myTime}{August 2012\xspace}
-\newcommand{\myVersion}{version 4.1\xspace}
+\newcommand{\myTitle}{Reproducibility in e-Science}
+\newcommand{\mySubtitle}{Astronomy and Virtual Observatory datacubes}
+\newcommand{\myDegree}{Doctor por la Universidad de Granada}
+\newcommand{\myName}{Jos\'{e} Enrique Ruiz del Mazo}
+\newcommand{\mySupervisor}{Lourdes Verdes-Montenegro}
+\newcommand{\myDepartment}{Departamento de Astronom\'{i}a Extragal\'{a}ctica}
+\newcommand{\myUni}{Instituto de Astrof\'{i}sica de Andaluc\'{i}a-CSIC}
+\newcommand{\myLocation}{Granada}
+\newcommand{\myTime}{18 de Noviembre de 2014} %approx. delivery date
+\newcommand{\myCopyrightDate}{November 2014}  %approx. delivery date
+\newcommand{\myVersion}{}
 
 % ********************************************************************
 % Setup, finetuning, and useful commands
@@ -78,10 +76,13 @@
 %\PassOptionsToPackage{ngerman,american}{babel}   % change this to your language(s)
 % Spanish languages need extra options in order to work with this template
 %\PassOptionsToPackage{spanish,es-lcroman}{babel}
- \usepackage{babel}					
+\PassOptionsToPackage{es-tabla,spanish,es-lcroman,american}{babel}
+\usepackage{babel}
 
 \PassOptionsToPackage{square,numbers}{natbib}
- \usepackage{natbib}				
+\usepackage{natbib}	
+\usepackage{bibentry}
+\nobibliography*
 
 \PassOptionsToPackage{fleqn}{amsmath}		% math environments and more by the AMS 
  \usepackage{amsmath}
@@ -106,7 +107,8 @@
 % ****************************************************************************************************
 % 4. Setup floats: tables, (sub)figures, and captions
 % ****************************************************************************************************
-\usepackage{tabularx} % better tables
+\usepackage{rotating}  % allows tables display in landscape orientation
+\usepackage{tabularx}  % better tables
 	\setlength{\extrarowheight}{3pt} % increase table row height
 \newcommand{\tableheadline}[1]{\multicolumn{1}{c}{\spacedlowsmallcaps{#1}}}
 \newcommand{\myfloatalign}{\centering} % to be used with each float for alignment
@@ -120,24 +122,60 @@
 % 5. Setup code listings
 % ****************************************************************************************************
 \usepackage{listings} 
-%\lstset{emph={trueIndex,root},emphstyle=\color{BlueViolet}}%\underbar} % for special keywords
-\lstset{language=[LaTeX]Tex,%C++,
-    keywordstyle=\color{RoyalBlue},%\bfseries,
-    basicstyle=\small\ttfamily,
-    %identifierstyle=\color{NavyBlue},
-    commentstyle=\color{Green}\ttfamily,
-    stringstyle=\rmfamily,
-    numbers=none,%left,%
-    numberstyle=\scriptsize,%\tiny
-    stepnumber=5,
-    numbersep=8pt,
-    showstringspaces=false,
-    breaklines=true,
-    frameround=ftff,
-    frame=single,
-    belowcaptionskip=.75\baselineskip
-    %frame=L
-} 
+\usepackage{color}
+\definecolor{myGray}{rgb}{0.5,0.5,0.5}
+\definecolor{DarkOliveGreen}{rgb}{0.33, 0.42, 0.18}
+\definecolor{gray}{rgb}{0.4,0.4,0.4}
+\definecolor{darkblue}{rgb}{0.0,0.0,0.6}
+\definecolor{cyan}{rgb}{0.0,0.6,0.6}
+\definecolor{maroon}{rgb}{0.5,0,0}
+\definecolor{darkgreen}{rgb}{0,0.5,0}
+
+
+\lstdefinelanguage{XML}
+{
+  basicstyle=\ttfamily\color{darkblue}\footnotesize,
+  morestring=[b]",
+  morestring=[s]{"}{"},
+  morestring=[s]{>}{<},
+  morecomment=[s]{?}{?},
+  morecomment=[s]{!--}{--},
+  commentstyle=\color{darkgreen},
+  moredelim=[s][\color{black}]{>}{<},
+  moredelim=[s][\color{red}]{\ }{=},
+  stringstyle=\color{blue},
+  identifierstyle=\color{maroon}
+}
+
+\lstset{ %
+%  backgroundcolor=\color{white},   % choose the background color; you must add \usepackage{color} or \usepackage{xcolor}
+%  basicstyle=\footnotesize,        % the size of the fonts that are used for the code
+%  breakatwhitespace=false,         % sets if automatic breaks should only happen at whitespace
+    breaklines=true,                 % sets automatic line breaking
+%  captionpos=b,                    % sets the caption-position to bottom
+%  commentstyle=\color{mygreen},    % comment style
+%  deletekeywords={...},            % if you want to delete keywords from the given language
+%  escapeinside={\%*}{*)},          % if you want to add LaTeX within your code
+%  extendedchars=true,              % lets you use non-ASCII characters; for 8-bits encodings only, does not work with UTF-8
+   frame=none,                    % adds a frame around the code
+   keepspaces=true,                 % keeps spaces in text, useful for keeping indentation of code (possibly needs columns=flexible)
+%  keywordstyle=\color{blue},       % keyword style
+   language=XML,                 % the language of the code
+%  morekeywords={*,...},            % if you want to add more keywords to the set
+   numbers=left,                    % where to put the line-numbers; possible values are (none, left, right)
+   numbersep=5pt,                   % how far the line-numbers are from the code
+   numberstyle=\tiny\color{myGray}, % the style that is used for the line-numbers
+   rulecolor=\color{black}         % if not set, the frame-color may be changed on line-breaks within not-black text (e.g. comments (green here))
+%  showspaces=false,                % show spaces everywhere adding particular underscores; it overrides 'showstringspaces'
+%  showstringspaces=false,          % underline spaces within strings only
+%  showtabs=false,                  % show tabs within strings adding particular underscores
+%  stepnumber=2,                    % the step between two line-numbers. If it's 1, each line will be numbered
+%  stringstyle=\color{mymauve},     % string literal style
+%  tabsize=2,                       % sets default tabsize to 2 spaces
+%  title=\lstname                   % show the filename of files included with \lstinputlisting; also try caption instead of title
+}
+
+
 % ****************************************************************************************************    		   
 
 
@@ -159,14 +197,14 @@
 % (translate the options to any language you use)
 % ********************************************************************
 \newcommand{\backrefnotcitedstring}{\relax}%(Not cited.)
-\newcommand{\backrefcitedsinglestring}[1]{(Cited on page~#1.)}
-\newcommand{\backrefcitedmultistring}[1]{(Cited on pages~#1.)}
+\newcommand{\backrefcitedsinglestring}[1]{~#1.}
+\newcommand{\backrefcitedmultistring}[1]{~#1.}
 \ifthenelse{\boolean{enable-backrefs}}%
 {%
 		\PassOptionsToPackage{hyperpageref}{backref}
 		\usepackage{backref} % to be loaded after hyperref package 
-		   \renewcommand{\backreftwosep}{ and~} % separate 2 pages
-		   \renewcommand{\backreflastsep}{, and~} % separate last of longer list
+		   \renewcommand{\backreftwosep}{, ~} % separate 2 pages
+		   \renewcommand{\backreflastsep}{, ~} % separate last of longer list
 		   \renewcommand*{\backref}[1]{}  % disable standard
 		   \renewcommand*{\backrefalt}[4]{% detailed backref
 		      \ifcase #1 %
@@ -192,12 +230,15 @@
     urlcolor=webbrown, linkcolor=RoyalBlue, citecolor=webgreen, %pagecolor=RoyalBlue,%
     %urlcolor=Black, linkcolor=Black, citecolor=Black, %pagecolor=Black,%
     pdftitle={\myTitle},%
-    pdfauthor={\textcopyright\ \myName, \myUni, \myFaculty},%
+    pdfauthor={\textcopyright\ \myName, \myDepartment, \myUni},%
     pdfsubject={},%
     pdfkeywords={},%
     pdfcreator={pdfLaTeX},%
     pdfproducer={LaTeX with hyperref and classicthesis}%
 }   
+
+\newcommand{\urlsamefont}[1]{\urlstyle{same}\url{#1}}
+\newcommand{\hrefnote}[2]{\href{#1}{#2}\footnote{\urlsamefont{#1}}}
 
 % ********************************************************************
 % Setup autoreferences

@@ -1,37 +1,40 @@
-\BOOKMARK [1][-]{Dedication.1}{Dedication}{}
-\BOOKMARK [1][-]{Abstract.1}{Abstract}{}
-\BOOKMARK [1][-]{Zusammenfassung.1}{Zusammenfassung}{}
-\BOOKMARK [1][-]{publications.1}{Publications}{}
-\BOOKMARK [1][-]{acknowledgments.1}{Acknowledgments}{}
-\BOOKMARK [1][-]{tableofcontents.1}{Contents}{}
-\BOOKMARK [1][-]{lof.1}{List of Figures}{}
-\BOOKMARK [1][-]{lot.1}{List of Tables}{}
-\BOOKMARK [1][-]{lol.1}{Listings}{}
-\BOOKMARK [1][-]{acronyms.1}{Acronyms}{}
-\BOOKMARK [-1][]{part.1}{Some Kind of Manual}{}
-\BOOKMARK [0][]{chapter.1}{1 Introduction}{part.1}
-\BOOKMARK [1][-]{section.1.1}{1.1 Organization}{chapter.1}
-\BOOKMARK [1][-]{section.1.2}{1.2 Style Options}{chapter.1}
-\BOOKMARK [1][-]{section.1.3}{1.3 Customization}{chapter.1}
-\BOOKMARK [1][-]{section.1.4}{1.4 Issues}{chapter.1}
-\BOOKMARK [1][-]{section.1.5}{1.5 Future Work}{chapter.1}
-\BOOKMARK [1][-]{section.1.6}{1.6 Beyond a Thesis}{chapter.1}
-\BOOKMARK [1][-]{section.1.7}{1.7 License}{chapter.1}
-\BOOKMARK [-1][]{part.2}{The Showcase}{}
-\BOOKMARK [0][]{chapter.2}{2 Examples}{part.2}
-\BOOKMARK [1][-]{section.2.1}{2.1 A New Section}{chapter.2}
-\BOOKMARK [2][-]{subsection.2.1.1}{2.1.1 Test for a Subsection}{section.2.1}
-\BOOKMARK [2][-]{subsection.2.1.2}{2.1.2 Autem Timeam}{section.2.1}
-\BOOKMARK [1][-]{section.2.2}{2.2 Another Section in This Chapter}{chapter.2}
-\BOOKMARK [2][-]{subsection.2.2.1}{2.2.1 Personas Initialmente}{section.2.2}
-\BOOKMARK [2][-]{subsection.2.2.2}{2.2.2 Linguistic Registrate}{section.2.2}
-\BOOKMARK [0][]{chapter.3}{3 Math Test Chapter}{part.2}
-\BOOKMARK [1][-]{section.3.1}{3.1 Some Formulas}{chapter.3}
-\BOOKMARK [1][-]{section.3.2}{3.2 Various Mathematical Examples}{chapter.3}
-\BOOKMARK [-1][]{part.3}{Appendix}{}
-\BOOKMARK [0][]{appendix.A}{A Appendix Test}{part.3}
-\BOOKMARK [1][-]{section.A.1}{A.1 Appendix Section Test}{appendix.A}
-\BOOKMARK [1][-]{section.A.2}{A.2 Another Appendix Section Test}{appendix.A}
-\BOOKMARK [0][]{dummy.7}{Bibliography}{part.3}
-\BOOKMARK [0][]{colophon.0}{Colophon}{part.3}
-\BOOKMARK [0][]{declaration.0}{Declaration}{part.3}
+\BOOKMARK [0][]{vistobueno.0}{VistoBueno}{}
+\BOOKMARK [0][]{declaration.0}{Declaration}{}
+\BOOKMARK [1][-]{publications.1}{Publicaciones}{declaration.0}
+\BOOKMARK [1][-]{Abstract.1}{Abstract}{declaration.0}
+\BOOKMARK [1][-]{Resumen.1}{Resumen}{declaration.0}
+\BOOKMARK [1][-]{tableofcontents.1}{Contents}{declaration.0}
+\BOOKMARK [1][-]{lof.1}{List of Figures}{declaration.0}
+\BOOKMARK [1][-]{lot.1}{List of Tables}{declaration.0}
+\BOOKMARK [1][-]{lol.1}{Listings}{declaration.0}
+\BOOKMARK [1][-]{acronyms.1}{Acronyms}{declaration.0}
+\BOOKMARK [-1][]{part.1}{Introduction}{}
+\BOOKMARK [0][]{chapter.1}{1 Reproducibility and re-use in e-Science}{part.1}
+\BOOKMARK [0][]{chapter.2}{2 Complex datasets in Astronomy}{part.1}
+\BOOKMARK [-1][]{part.2}{Methods and Materials}{}
+\BOOKMARK [0][]{chapter.3}{3 The Virtual Observatory}{part.2}
+\BOOKMARK [0][]{chapter.4}{4 Scientific Workflows}{part.2}
+\BOOKMARK [0][]{chapter.5}{5 IPython Notebooks}{part.2}
+\BOOKMARK [0][]{chapter.6}{6 Web-based Collaborative Platforms}{part.2}
+\BOOKMARK [-1][]{part.3}{Developments and contributions}{}
+\BOOKMARK [0][]{chapter.7}{7 Interoperability standards}{part.3}
+\BOOKMARK [1][-]{section.7.1}{7.1 Image Datamodel}{chapter.7}
+\BOOKMARK [1][-]{section.7.2}{7.2 Simple Image Access v2.0}{chapter.7}
+\BOOKMARK [1][-]{section.7.3}{7.3 DataLink}{chapter.7}
+\BOOKMARK [1][-]{section.7.4}{7.4 PDL: parameter Description Language}{chapter.7}
+\BOOKMARK [0][]{chapter.8}{8 Prototype archive for datacubes}{part.3}
+\BOOKMARK [0][]{chapter.9}{9 Software Tools}{part.3}
+\BOOKMARK [1][-]{section.9.1}{9.1 AstroTaverna Plugin}{chapter.9}
+\BOOKMARK [1][-]{section.9.2}{9.2 AMIGA IPython Notebook Server}{chapter.9}
+\BOOKMARK [-1][]{part.4}{Use Cases Illustration}{}
+\BOOKMARK [0][]{chapter.10}{10 Tabulars}{part.4}
+\BOOKMARK [0][]{chapter.11}{11 Images}{part.4}
+\BOOKMARK [0][]{chapter.12}{12 Datacubes}{part.4}
+\BOOKMARK [0][]{chapter.13}{13 Documents}{part.4}
+\BOOKMARK [-1][]{part.5}{Conclusions}{}
+\BOOKMARK [0][]{chapter.14}{14 Conclusions and future work}{part.5}
+\BOOKMARK [0][]{chapter.15}{15 Conclusiones y trabajo futuro}{part.5}
+\BOOKMARK [-1][]{part.6}{Appendix}{}
+\BOOKMARK [0][]{appendix.A}{A Appendix 1}{part.6}
+\BOOKMARK [0][]{appendix.B}{B Appendix 2}{part.6}
+\BOOKMARK [0][]{dummy.8}{Bibliography}{part.6}

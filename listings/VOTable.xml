@@ -1,0 +1,292 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VOTABLE xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:noNamespaceSchemaLocation=" xmlns:http://www.ivoa.net/xml/VOTable-1.2.xsd" version="1.2">
+<RESOURCE type="results">
+<DESCRIPTION>AMIGA SIAv2 Archive Prototype</DESCRIPTION>
+<INFO name="QUERY_STATUS" value="OK"/>
+<INFO name="VERSION" value="0.1"/>
+
+
+
+<INFO name="TableRows" value="63"/>
+<TABLE>
+
+<GROUP name="CoordSys" utype="spec:CoordSys">
+	<GROUP utype="CoordSys.SpaceFrame">
+		<PARAM name="System" utype="im:CoordSys.SpaceFrame.Name" ucd="pos.frame" datatype="char" arraysize="*" value="ICRS"/>
+		<PARAM name="System" utype="im:CoordSys.SpaceFrame.RefPos" ucd="" datatype="char" arraysize="*" value="UNKNOWN"/>
+		<PARAM name="System" utype="im:CoordSys.SpaceFrame.Equinox" ucd="time.equinox;pos.frame" datatype="double" value="2000.0" unit="y"/>
+	</GROUP>
+	<GROUP utype="CoordSys.SpectralFrame">
+		<PARAM name="System" utype="im:CoordSys.TimeFrame.Name" ucd="" datatype="char" arraysize="*" value="Frequency"/>
+		<PARAM name="System" utype="im:CoordSys.TimeFrame.RefPos" ucd="spect.frame" datatype="char" arraysize="*" value="TOPOCENTER"/>
+		<PARAM name="System" utype="im:CoordSys.TimeFrame.Redshift" ucd="" datatype="double" value="0.0"/>
+	</GROUP>
+	<GROUP utype="CoordSys.VelocityFrame">
+		<PARAM name="System" utype="im:CoordSys.VelocityFrame.Name" ucd="" datatype="char" arraysize="*" value="Emission Line Velocity"/>
+		<PARAM name="System" utype="im:CoordSys.VelocityFrame.RefPos" ucd="spect.frame" datatype="char" arraysize="*" value="TOPOCENTER"/>
+		<PARAM name="System" utype="im:CoordSys.VelocityFrame.UCD" ucd="phys.veloc.rotat" datatype="double" value="0.0"/>
+	</GROUP>
+</GROUP>
+
+<FIELD ID="access_url" name="access_url" datatype="char" ucd="meta.ref.url" utype="im:Access.Reference" arraysize="*">
+<DESCRIPTION>URL used to access dataset</DESCRIPTION>
+</FIELD>
+<FIELD ID="access_format" name="access_format" datatype="char" utype="im:Access.Format" arraysize="*">
+<DESCRIPTION>Content or MIME type of dataset</DESCRIPTION>
+</FIELD>
+<FIELD ID="access_estsize" name="access_estsize" datatype="long" ucd="meta.number" utype="im:Access.Size" unit="kB">
+<DESCRIPTION>Estimated dataset size</DESCRIPTION>
+</FIELD>
+<FIELD ID="primaryID" name="obs_publisher_did" datatype="char" ucd="meta.id;meta.main" utype="im:Curation.PublisherDID" arraysize="*">
+<DESCRIPTION>Publisher's ID for the dataset ID</DESCRIPTION>
+</FIELD>
+<FIELD ID="obs_title" name="obs_title" datatype="char" ucd="meta.title;meta.dataset" utype="im:DataID.Title" arraysize="*">
+<DESCRIPTION>Dataset Title</DESCRIPTION>
+</FIELD>
+<FIELD ID="obs_collection" name="obs_collection" datatype="char" utype="im:DataID.Collection" arraysize="*">
+<DESCRIPTION>Data collection to which dataset belongs</DESCRIPTION>
+</FIELD>
+<FIELD ID="dataset_length" name="dataset_length" datatype="long" ucd="meta.number" utype="im:Dataset.Length">
+<DESCRIPTION>Number of pixels</DESCRIPTION>
+</FIELD>
+<FIELD ID="im_naxis" name="im_naxis" datatype="long" ucd="meta.number" utype="im:Image.Naxis" arraysize="*">
+<DESCRIPTION>Length of each axis of each subarray</DESCRIPTION>
+</FIELD>
+<FIELD ID="im_wcsaxes" name="im_wcsaxes" datatype="char" utype="im:Image.WCSAxes" arraysize="*">
+<DESCRIPTION>WCS axis coordinate types</DESCRIPTION>
+</FIELD>
+<FIELD ID="target_name" name="target_name" datatype="char" ucd="meta.id;src" utype="im:Target.Name" unit="arcsec" arraysize="*">
+<DESCRIPTION>Target name</DESCRIPTION>
+</FIELD>
+<FIELD ID="target_prop_vel" name="target_prop_vel" datatype="double" ucd="phys.veloc" utype="im:TargetProperties.Velocity" unit="km/s">
+<DESCRIPTION>Measured velocity for target</DESCRIPTION>
+</FIELD>
+<FIELD ID="target_prop_redshift" name="target_prop_redshift" datatype="double" ucd="src.redshift" utype="im:TargetProperties.Redshift">
+<DESCRIPTION>Measured redshift for target</DESCRIPTION>
+</FIELD>
+<FIELD ID="target_prop_dist" name="target_prop_dist" datatype="double" ucd="pos.distance" utype="im:TargetProperties.Distance" unit="Mpc">
+<DESCRIPTION>Derived distance for target</DESCRIPTION>
+</FIELD>
+<FIELD ID="target_prop_pa" name="target_prop_pa" datatype="double" ucd="pos.posAng" utype="im:TargetProperties.PositionAngle" unit="deg">
+<DESCRIPTION>Measured position angle for target</DESCRIPTION>
+</FIELD>
+<FIELD ID="target_prop_inc" name="target_prop_inc" datatype="double" ucd="src.orbital.inclination" utype="im:TargetProperties.Inclination" unit="deg">
+<DESCRIPTION>Measured inclination for target</DESCRIPTION>
+</FIELD>
+<FIELD ID="target_prop_morph" name="target_prop_morph" datatype="char" ucd="src.morph;src.morph.type" utype="im:TargetProperties.MorphologyType" arraysize="*">
+<DESCRIPTION>Morphology Hubble classification code</DESCRIPTION>
+</FIELD>
+<FIELD ID="target_prop_bar" name="target_prop_bar" datatype="long" ucd="src.morph.param" utype="im:TargetProperties.Bar">
+<DESCRIPTION>Presence of bar</DESCRIPTION>
+</FIELD>
+<FIELD ID="target_prop_ring" name="target_prop_ring" datatype="long" ucd="src.morph.param" utype="im:TargetProperties.Ring">
+<DESCRIPTION>Presence of ring</DESCRIPTION>
+</FIELD>
+<FIELD ID="target_prop_btc" name="target_prop_btc" datatype="double" ucd="phys.magAbs.bol" utype="im:TargetProperties.BTc">
+<DESCRIPTION>Derived corrected bolometric absolute magnitude in B band</DESCRIPTION>
+</FIELD>
+<FIELD ID="target_prop_mfir" name="target_prop_mfir" datatype="double" ucd="" utype="im:TargetProperties.MFIR">
+<DESCRIPTION>Derived absolute magnitude in far infrared</DESCRIPTION>
+</FIELD>
+<FIELD ID="target_prop_loglb" name="target_prop_loglb" datatype="double" ucd="" utype="im:TargetProperties.LogLB">
+<DESCRIPTION>Log of derived total luminosity in solar units for B band</DESCRIPTION>
+</FIELD>
+<FIELD ID="s_ra" name="s_ra" ucd="pos.eq.ra;meta.main" utype="im:Char.SpatialAxis.Coverage.Location.Coord.Position2D.Value2.C1">
+<DESCRIPTION>Spatial position first coordinate</DESCRIPTION>
+</FIELD>
+<FIELD ID="s_dec" name="s_dec" ucd="pos.eq.dec;meta.main" utype="im:Char.SpatialAxis.Coverage.Location.Coord.Position2D.Value2.C2">
+<DESCRIPTION>Spatial position second coordinate</DESCRIPTION>
+</FIELD>
+<FIELD ID="em_bandpass" name="em_bandpass" datatype="double" ucd="em.wl;instr.bandpass" utype="im:Char.SpectralAxis.Coverage.Location.Coord.Spectral.Value" unit="Hz">
+<DESCRIPTION>Spectral coord value</DESCRIPTION>
+</FIELD>
+<FIELD ID="em_bandwidth" name="em_bandwidth" datatype="double" ucd="em.wl;instr.bandwidth" utype="im:Char.SpectralAxis.Coverage.Bounds.Extent" unit="Hz">
+<DESCRIPTION>Width of spectrum</DESCRIPTION>
+</FIELD>
+<FIELD ID="em_binsize" name="em_binsize" datatype="double" ucd="em.wl;spect.binSize" utype="im:Char.SpectralAxis.Sampling.SampleExtent" unit="Hz">
+<DESCRIPTION>Wavelength bin size</DESCRIPTION>
+</FIELD>
+<FIELD ID="vel_linename" name="vel_linename" datatype="char" ucd="meta.id;spect.line" utype="im:Char.VelocityAxis.Name" arraysize="*">
+<DESCRIPTION>Name of spectral line</DESCRIPTION>
+</FIELD>
+<FIELD ID="vel_restfreq" name="vel_restfreq" datatype="double" ucd="em.freq;spect.line" utype="im:Char.VelocityAxis.RestFrequency" unit="Hz">
+<DESCRIPTION>Line rest frequency</DESCRIPTION>
+</FIELD>
+<FIELD ID="vel_location" name="vel_location" datatype="double" ucd="phys.veloc.rotat" utype="im:Char.VelocityAxis.Location.Coord" unit="m/s">
+<DESCRIPTION>Central velocity in datacube</DESCRIPTION>
+</FIELD>
+<FIELD ID="vel_chans" name="vel_chans" datatype="double" ucd="phys.veloc" utype="im:Char.VelocityAxis.Coverage.Bounds.Extent" unit="m/s">
+<DESCRIPTION>Velocity axis length</DESCRIPTION>
+</FIELD>
+<FIELD ID="vel_binsize" name="vel_binsize" datatype="double" ucd="phys.veloc" utype="im:Char.VelocityAxis.Sampling.Sample.Extent" unit="m/s">
+<DESCRIPTION>Velocity bin size</DESCRIPTION>
+</FIELD>
+
+<GROUP ID="Access" name="Access" utype="im:Access">
+<DESCRIPTION>Access Metadata</DESCRIPTION>
+<FIELDref ref="access_url"/>
+<FIELDref ref="access_format"/>
+<FIELDref ref="access_estsize"/>
+</GROUP>
+
+<GROUP ID="Curation" name="Curation" utype="im:Curation">
+<DESCRIPTION>Curation Metadata</DESCRIPTION>
+<PARAM ID="publisher" datatype="char" name="publisher" ucd="meta.curation" utype="im:Curation.Publisher" value="The AMIGA Group" arraysize="*">
+</PARAM>
+<PARAM ID="publisher_id" datatype="char" name="publisher_id" ucd="meta.ref.url;meta.curation" utype="im:Curation.PublisherID" value="ivo://svo.amiga.iaa.es" arraysize="*">
+</PARAM>
+<FIELDref ref="obs_publisher_did"/>
+</GROUP>
+
+<GROUP ID="DataID" name="DataID" utype="im:DataID">
+<DESCRIPTION>Dataset Identification Metadata</DESCRIPTION>
+<PARAM ID="obs_creation_type" name="obs_creation_type" datatype="char" utype="im:DataID.CreationType" arraysize="*" value="archive"></PARAM>
+<FIELDref ref="obs_title"/>
+<FIELDref ref="obs_collection"/>
+</GROUP>
+
+<GROUP ID="Dataset" name="Dataset" utype="im:Dataset">
+<DESCRIPTION>General Dataset Metadata</DESCRIPTION>
+<PARAM ID="datamodel_name" datatype="char" name="datamodel_name" ucd="meta.id" utype="im:Dataset.DataModel.Name" value="Image-2.0" arraysize="*">
+<DESCRIPTION>Data model name and version</DESCRIPTION>
+</PARAM>
+<PARAM ID="datamodel_prefix" datatype="char" name="datamodel_prefix" ucd="meta.id" utype="im:Dataset.DataModel.Prefix" value="im" arraysize="*">
+<DESCRIPTION>Data model prefix</DESCRIPTION>
+</PARAM>
+<PARAM ID="dataproduct_type" datatype="char" name="dataproduct_type" ucd="" utype="im:Dataset.Type" value="cube" arraysize="*">
+<DESCRIPTION>Dataset type</DESCRIPTION>
+</PARAM>
+<PARAM ID="calib_level" datatype="int" name="calib_level" ucd="meta.code.qual" utype="im:Dataset.CalibLevel" value="2">
+<DESCRIPTION>Calibration Level</DESCRIPTION>
+</PARAM>
+<FIELDref ref="dataset_length"/>
+</GROUP>
+
+<GROUP ID="Image" name="Image" utype="im:Image">
+<DESCRIPTION>Image-specific Dataset metadata</DESCRIPTION>
+<PARAM ID="im_naxes" datatype="int" name="im_naxes" ucd="meta.number" utype="im:Image.Naxes" value="3">
+<DESCRIPTION>Number of image axes</DESCRIPTION>
+</PARAM>
+<FIELDref ref="im_naxis"/>
+<FIELDref ref="im_wcsaxes"/>
+</GROUP>
+
+<GROUP ID="Target" name="Target" utype="im:Target">
+<DESCRIPTION>Target Metadata</DESCRIPTION>
+<PARAM ID="target_class" datatype="char" name="target_class" ucd="src.class" utype="im:Target.Class" value="G" arraysize="1">
+<DESCRIPTION>Number of image axes</DESCRIPTION>
+</PARAM>
+<FIELDref ref="target_name"/>
+</GROUP>
+
+<GROUP ID="TargetProperties" name="TargetProperties" utype="im:TargetProperties">
+<DESCRIPTION>Target Properties Metadata</DESCRIPTION>
+<FIELDref ref="target_prop_vel"/>
+<FIELDref ref="target_prop_redshift"/>
+<FIELDref ref="target_prop_dist"/>
+<FIELDref ref="target_prop_pa"/>
+<FIELDref ref="target_prop_inc"/>
+<FIELDref ref="target_prop_morph"/>
+<FIELDref ref="target_prop_bar"/>
+<FIELDref ref="target_prop_ring"/>
+<FIELDref ref="target_prop_btc"/>
+<FIELDref ref="target_prop_mfir"/>
+<FIELDref ref="target_prop_loglb"/>
+</GROUP>
+
+<GROUP ID="Char.SpatialAxis" name="Char.SpatialAxis" utype="im:Char.SpatialAxis">
+<DESCRIPTION>Spatial Axis Characterization</DESCRIPTION>
+<PARAM ID="s_unit" datatype="char" name="s_unit" ucd="meta.unit" utype="im:Char.SpatialAxis.Unit" value="deg" arraysize="*"></PARAM>
+<FIELDref ref="s_ra"/>
+<FIELDref ref="s_dec"/>
+</GROUP>
+
+<GROUP ID="Char.SpectralAxis" name="Char.SpectralAxis" utype="im:Char.SpectralAxis">
+<DESCRIPTION>Spectral Axis Characterization</DESCRIPTION>
+<PARAM ID="em_unit" datatype="char" name="em_unit" ucd="meta.unit" utype="im:Char.SpectralAxis.Unit" value="Hz" arraysize="*"></PARAM>
+<FIELDref ref="em_bandpass"/>
+<FIELDref ref="em_bandwidth"/>
+<FIELDref ref="em_binsize"/>
+</GROUP>
+
+<GROUP ID="Char.VelocityAxis" name="Char.VelocityAxis" utype="im:Char.VelocityAxis">
+<DESCRIPTION>Velocity Axis Characterization</DESCRIPTION>
+<PARAM ID="vel_unit" datatype="char" name="vel_unit" ucd="meta.unit" utype="im:Char.VelocityAxis.Unit" value="m/s" arraysize="*"></PARAM>
+<FIELDref ref="vel_linename"/>
+<FIELDref ref="vel_restfreq"/>
+<FIELDref ref="vel_location"/>
+<FIELDref ref="vel_chans"/>
+<FIELDref ref="vel_binsize"/>
+</GROUP>
+
+<DATA>
+<TABLEDATA>
+
+<TR>
+<TD></TD>
+<TD>application/fits</TD>
+<TD>6412</TD>
+<TD>ivo://svo.amiga.iaa.es/#siav2:1</TD>
+<TD>NGC613</TD>
+<TD>B0DEGA</TD>
+<TD>1638400</TD>
+<TD>256 256 25</TD>
+<TD></TD>
+<TD>NGC613</TD>
+<TD>1484.2</TD>
+<TD></TD>
+<TD></TD>
+<TD>118.6</TD>
+<TD>46.9</TD>
+<TD>4.0</TD>
+<TD>1</TD>
+<TD>0</TD>
+<TD>10.509</TD>
+<TD>9.752</TD>
+<TD>10.4</TD>
+<TD>23.5758</TD>
+<TD>-29.4183</TD>
+<TD></TD>
+<TD></TD>
+<TD></TD>
+<TD>12 CO 21</TD>
+<TD>2.3053797e+11</TD>
+<TD>1490080.0</TD>
+<TD>500026.0</TD>
+<TD>20001.1</TD>
+</TR>
+
+....
+
+
+</TABLEDATA>
+</DATA>
+</TABLE>
+</RESOURCE>
+
+<RESOURCE type="meta" utype="adhoc:service">
+	<PARAM name="resourceIdentifier" datatype="char" arraysize="*" value="ivo://amiga.iaa.es/sia/metadata"/>
+	<PARAM name="standardID" datatype="char" arraysize="*" value="ivo://ivoa.net/std/SIA#metadata-2.0"/>
+	<PARAM name="accessURL" datatype="char" arraysize="*" value="http://http://amiga.iaa.es:9000/search/sia/metadata"/>
+	<GROUP name="inputParams">
+		<PARAM name="ID" datatype="char" arraysize="*" value="" ref="primaryID"/>
+	</GROUP>
+</RESOURCE>
+
+<RESOURCE type="meta" utype="adhoc:service">
+	<PARAM name="resourceIdentifier" datatype="char" arraysize="*" value="ivo://amiga.iaa.es/sia/datalink"/>
+	<PARAM name="standardID" datatype="char" arraysize="*" value="ivo://ivoa.net/std/DataLink#links-1.0"/>
+	<PARAM name="accessURL" datatype="char" arraysize="*" value="http://http://amiga.iaa.es:9000/datalink"/>
+	<GROUP name="inputParams">
+		<PARAM name="RESPONSEFORMAT" datatype="char" arraysize="*" value=""/>
+			<VALUES>
+				<OPTION value=""/>
+				<OPTION value="votable"/>
+				<OPTION value="application/x-votable+xml"/>
+			</VALUES>
+		<PARAM name="ID" datatype="char" arraysize="*" value="" ref="primaryID"/>
+	</GROUP>
+</RESOURCE>
+
+</VOTABLE>

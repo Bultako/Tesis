@@ -1,0 +1,282 @@
+\begin{thebibliography}{29}
+\providecommand{\natexlab}[1]{#1}
+\providecommand{\url}[1]{\texttt{#1}}
+\expandafter\ifx\csname urlstyle\endcsname\relax
+  \providecommand{\doi}[1]{doi: #1}\else
+  \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
+
+\bibitem[Alacid et~al.(2010)Alacid, Ruiz, Guti\'{e}rrez, Rizzo,
+  Verdes-Montenegro, Solano, and Santander-Vela]{Alacid2010}
+J.~M. Alacid, J.~E. Ruiz, R.~Guti\'{e}rrez, R.~Rizzo, L.~Verdes-Montenegro,
+  E.~Solano, and J.~D. Santander-Vela.
+\newblock {A VO Archive for the DSS-63 antenna at Robledo}.
+\newblock In \emph{Highlights of Spanish Astrophysics V, Proceedings of the
+  VIII Scientific Meeting of the Spanish Astronomical Society (SEA)}, pages
+  1--4, 2010.
+
+\bibitem[Argudo-Fern\'{a}ndez et~al.(2011)Argudo-Fern\'{a}ndez, Verley,
+  Bergond, Sulentic, Espada, Santander-Vela, Ruiz, Sabater, Verdes-Montenegro,
+  and Mart\'{\i}nez-Badenes]{Argudo-Fernandez2011}
+M.~Argudo-Fern\'{a}ndez, S.~Verley, G.~Bergond, J.~Sulentic, D.~Espada, J.~D.
+  Santander-Vela, J.~E. Ruiz, J.~Sabater, L.~Verdes-Montenegro, and
+  V.~Mart\'{\i}nez-Badenes.
+\newblock {A search for neighbours around isolated galaxies using the SDSS}.
+\newblock In \emph{Highlights of Spanish Astrophysics VI, Proceedings of the IX
+  Scientific Meeting of the Spanish Astronomical Society (SEA)}, 2011.
+
+\bibitem[Argudo-Fern\'{a}ndez et~al.(2013)Argudo-Fern\'{a}ndez, Verley,
+  Bergond, Sulentic, Sabater, {Fern\'{a}ndez Lorenzo}, Leon, Espada,
+  Verdes-Montenegro, Santander-Vela, Ruiz, and
+  S\'{a}nchez-Exp\'{o}sito]{Argudo-Fernandez2013}
+M.~Argudo-Fern\'{a}ndez, S.~Verley, G.~Bergond, J.~Sulentic, J.~Sabater,
+  M.~{Fern\'{a}ndez Lorenzo}, S.~Leon, D.~Espada, L.~Verdes-Montenegro,
+  J.~Santander-Vela, J.~E. Ruiz, and S.~S\'{a}nchez-Exp\'{o}sito.
+\newblock {Astrophysics The AMIGA sample of isolated galaxies XII . Revision of
+  the isolation degree for AMIGA galaxies using the SDSS}.
+\newblock \emph{Astronomy \& Astrophysics}, 560:\penalty0 A9, 2013.
+
+\bibitem[Belhajjame et~al.(2012)Belhajjame, Corcho, Garijo, Zhao, Missier,
+  Newman, Palma, Bechhofer, {Garc\'{\i}a Cuesta}, G\'{o}mez-P\'{e}rez, Klyne,
+  Page, Roos, Ruiz, Soiland-Reyes, Verdes-Montenegro, and
+  Goble]{Belhajjame2012}
+K.~Belhajjame, O.~Corcho, D.~Garijo, J.~Zhao, P.~Missier, D.~Newman, R.~Palma,
+  S.~Bechhofer, E.~{Garc\'{\i}a Cuesta}, J.~M. G\'{o}mez-P\'{e}rez, G.~Klyne,
+  K.~Page, M.~Roos, J.~E. Ruiz, S.~Soiland-Reyes, L.~Verdes-Montenegro, and
+  C.~Goble.
+\newblock {Workflow-Centric Research Objects: First Class Citizens in Scholarly
+  Discourse}.
+\newblock In \emph{Sepublica2012 - Second International Conference on the
+  Future of Scholarly Communication and Scientific Publishing}, pages 1--12,
+  2012.
+
+\bibitem[Diago et~al.(2012)Diago, Guti\'{e}rrez-Soto, Ruiz, and
+  Solano]{Diago2012}
+P.~D. Diago, J.~Guti\'{e}rrez-Soto, J.~E. Ruiz, and E.~Solano.
+\newblock {Teaching astronomy and astrophysics at the Valencian International
+  University (VIU): Application and use of Virtual Observatory tools}.
+\newblock In \emph{Highlights of Spanish Astrophysics VII, Proceedings of the X
+  Scientific Meeting of the Spanish Astronomical Society (SEA)}, 2012.
+
+\bibitem[{Fern\'{a}ndez Lorenzo} et~al.(2012{\natexlab{a}}){Fern\'{a}ndez
+  Lorenzo}, Sulentic, Verdes-Montenegro, Ruiz, Sabater, and
+  S\'{a}nchez]{FernandezLorenzo2012}
+M.~{Fern\'{a}ndez Lorenzo}, J.~Sulentic, L.~Verdes-Montenegro, J.~E. Ruiz,
+  J.~Sabater, and S.~S\'{a}nchez.
+\newblock {The AMIGA sample of isolated galaxies X. A first look at isolated
+  galaxy colors}.
+\newblock \emph{Astronomy \& Astrophysics}, 540:\penalty0 A47, Mar.
+  2012{\natexlab{a}}.
+\newblock ISSN 0004-6361.
+\newblock \doi{10.1051/0004-6361/201118660}.
+
+\bibitem[{Fern\'{a}ndez Lorenzo} et~al.(2012{\natexlab{b}}){Fern\'{a}ndez
+  Lorenzo}, Sulentic, Verdes-Montenegro, Ruiz, Sabater, and
+  S\'{a}nchez-Exp\'{o}sito]{FernandezLorenzo2012p}
+M.~{Fern\'{a}ndez Lorenzo}, J.~Sulentic, L.~Verdes-Montenegro, J.~E. Ruiz,
+  J.~Sabater, and S.~S\'{a}nchez-Exp\'{o}sito.
+\newblock {SDSS (g - r) colors of isolated galaxies}.
+\newblock In \emph{Highlights of Spanish Astrophysics VII, Proceedings of the X
+  Scientific Meeting of the Spanish Astronomical Society (SEA)},
+  2012{\natexlab{b}}.
+
+\bibitem[{Fern\'{a}ndez Lorenzo} et~al.(2014){Fern\'{a}ndez Lorenzo}, Sulentic,
+  Verdes-Montenegro, Blasco-Herrera, Argudo-Fern\'{a}ndez, Garrido,
+  Ram\'{\i}rez-Moreta, Ruiz, S\'{a}nchez-Exp\'{o}sito, and
+  Santander-Vela]{FernandezLorenzo2014}
+M.~{Fern\'{a}ndez Lorenzo}, J.~Sulentic, L.~Verdes-Montenegro,
+  J.~Blasco-Herrera, M.~Argudo-Fern\'{a}ndez, J.~Garrido,
+  P.~Ram\'{\i}rez-Moreta, J.~E. Ruiz, S.~S\'{a}nchez-Exp\'{o}sito, and J.~D.
+  Santander-Vela.
+\newblock {Are (Pseudo)Bulges in Isolated Galaxies Actually Primordial Relics?}
+\newblock \emph{The Astrophysical Journal}, 788\penalty0 (2):\penalty0 L39,
+  June 2014.
+\newblock ISSN 2041-8205.
+\newblock \doi{10.1088/2041-8205/788/2/L39}.
+
+\bibitem[G\'{o}mez-P\'{e}rez et~al.(2013{\natexlab{a}})G\'{o}mez-P\'{e}rez,
+  {Garc\'{\i}a Cuesta}, Garrido, Ruiz, Zhao, and Klyne]{Gomez-Perez2013ISWC}
+J.~M. G\'{o}mez-P\'{e}rez, E.~{Garc\'{\i}a Cuesta}, A.~Garrido, J.~E. Ruiz,
+  J.~Zhao, and G.~Klyne.
+\newblock {When History Matters - Assessing Reliability for the Reuse of
+  Scientific Workflows}.
+\newblock In \emph{12th International Semantic Web Conference, ISWC 2013},
+  volume 8219 of \emph{Lecture Notes in Computer Science}, pages 81--97,
+  2013{\natexlab{a}}.
+\newblock \doi{10.1007/978-3-642-41338-4_6}.
+
+\bibitem[G\'{o}mez-P\'{e}rez et~al.(2013{\natexlab{b}})G\'{o}mez-P\'{e}rez,
+  {Garc\'{\i}a Cuesta}, Zhao, Garrido, and Ruiz]{Gomez-Perez2013}
+J.~M. G\'{o}mez-P\'{e}rez, E.~{Garc\'{\i}a Cuesta}, J.~Zhao, A.~Garrido, and
+  J.~E. Ruiz.
+\newblock {How Reliable is Your workflow: Monitoring Decay in Scholarly
+  Publications}.
+\newblock In \emph{Sepublica2013 - Third International Conference on the Future
+  of Scholarly Communication and Scientific Publishing}, pages 75--86,
+  2013{\natexlab{b}}.
+
+\bibitem[Leon et~al.(2012)Leon, Espigares, Ruiz, Verdes-Montenegro,
+  Mauersberger, Brunswig, Kramer, Santander-Vela, and Wiesemeyer]{Leon2012}
+S.~Leon, V.~Espigares, J.~E. Ruiz, L.~Verdes-Montenegro, R.~Mauersberger,
+  W.~Brunswig, C.~Kramer, J.~d.~D. Santander-Vela, and H.~Wiesemeyer.
+\newblock {TAPAS, a VO archive at the IRAM 30-m telescope}.
+\newblock \emph{Experimental Astronomy}, 2012.
+
+\bibitem[Roure et~al.(2011)Roure, Missier, G\'{o}mez-P\'{e}rez, Palma, Ruiz,
+  Hettne, Roos, Klyne, and Goble]{Roure2011}
+D.~D. Roure, P.~Missier, J.~M. G\'{o}mez-P\'{e}rez, R.~Palma, J.~E. Ruiz,
+  K.~Hettne, M.~Roos, G.~Klyne, and C.~Goble.
+\newblock {Towards the Preservation of Scientific Workflows}.
+\newblock In \emph{iPRES2011 Conference}, 2011.
+
+\bibitem[Ruiz(2012)]{Ruiz2012a}
+J.~E. Ruiz.
+\newblock {Digital Science: reproducibility and visibility in Astronomy}.
+\newblock In \emph{Highlights of Spanish Astrophysics VII, Proceedings of the X
+  Scientific Meeting of the Spanish Astronomical Society (SEA)}, 2012.
+
+\bibitem[Ruiz et~al.(2009{\natexlab{a}})Ruiz, Santander-Vela, Espigares,
+  Verdes-Montenegro, and {Van Der Hulst}]{Ruiz2009}
+J.~E. Ruiz, J.~D. Santander-Vela, V.~Espigares, L.~Verdes-Montenegro, and J.~M.
+  {Van Der Hulst}.
+\newblock {GIPSY 3D: Analysis, Visualization and VO Tools for Datacubes}.
+\newblock In \emph{Astronomical Data Analysis Software and Systems XVIII - ASP
+  Conference Series}, volume 411, pages 406--409, 2009{\natexlab{a}}.
+
+\bibitem[Ruiz et~al.(2009{\natexlab{b}})Ruiz, Santander-Vela, Espigares,
+  Verdes-Montenegro, and {Van Der Hulst}]{Ruiz2009a}
+J.~E. Ruiz, J.~D. Santander-Vela, V.~Espigares, L.~Verdes-Montenegro, and J.~M.
+  {Van Der Hulst}.
+\newblock {GIPSY 3D: Analysis, Visualization and VO Tools}.
+\newblock In \emph{Multi-wavelength Astronomy and Virtual Observatory}, pages
+  2--3, 2009{\natexlab{b}}.
+
+\bibitem[Ruiz et~al.(2010)Ruiz, Santander-Vela, Garc\'{\i}a, Espigares, Leon,
+  and Verdes-Montenegro]{Ruiz2010}
+J.~E. Ruiz, J.~D. Santander-Vela, E.~Garc\'{\i}a, V.~Espigares, S.~Leon, and
+  L.~Verdes-Montenegro.
+\newblock {Virtual Observatory activities in the AMIGA}.
+\newblock In \emph{Highlights of Spanish Astrophysics V, Proceedings of the
+  VIII Scientific Meeting of the Spanish Astronomical Society (SEA)}, pages
+  1--6, 2010.
+
+\bibitem[Ruiz et~al.(2011)Ruiz, Verdes-Montenegro, and
+  S\'{a}nchez-Exp\'{o}sito]{Ruiz2011}
+J.~E. Ruiz, L.~Verdes-Montenegro, and S.~S\'{a}nchez-Exp\'{o}sito.
+\newblock {D5.3v1: Propagation of interdependent quantities in the calculation
+  of luminosities of galaxies}.
+\newblock Technical report, Wf4Ever: Advanced Workflow Preservation
+  Technologies for Enhanced Science, 2011.
+\newblock URL \url{http://repo.wf4ever-project.org/dlibra/docmetadata?id=29}.
+
+\bibitem[Ruiz et~al.(2012)Ruiz, Verdes-Montenegro, Garrido,
+  S\'{a}nchez-Exp\'{o}sito, {Fern\'{a}ndez Lorenzo}, Sabater, and
+  Santander-Vela]{Ruiz2012}
+J.~E. Ruiz, L.~Verdes-Montenegro, J.~Garrido, S.~S\'{a}nchez-Exp\'{o}sito,
+  M.~{Fern\'{a}ndez Lorenzo}, J.~Sabater, and J.~D. Santander-Vela.
+\newblock {D5.3v2: Calculation of Luminosity Profiles for a Sample of Galaxies
+  extracted from Catalogues using Isolation Criteria}.
+\newblock Technical report, Wf4Ever: Advanced Workflow Preservation
+  Technologies for Enhanced Science, 2012.
+\newblock URL \url{http://repo.wf4ever-project.org/dlibra/docmetadata?id=41}.
+
+\bibitem[Ruiz et~al.(2014)Ruiz, Garrido, Santander-Vela,
+  S\'{a}nchez-Exp\'{o}sito, and Verdes-Montenegro]{Ruiz2014}
+J.~E. Ruiz, J.~Garrido, J.~D. Santander-Vela, S.~S\'{a}nchez-Exp\'{o}sito, and
+  L.~Verdes-Montenegro.
+\newblock {AstroTaverna - Building workflows with Virtual Observatory
+  services}.
+\newblock \emph{Astronomy \& Computing}, \penalty0 (Virtual Observatory Special
+  Issue, 1), 2014.
+
+\bibitem[Santander-Vela et~al.(2012)Santander-Vela, Garc\'{\i}a, Leon,
+  Espigares, Ruiz, Verdes-Montenegro, and Solano]{Santander2012}
+J.~D. Santander-Vela, E.~Garc\'{\i}a, S.~Leon, V.~Espigares, J.~E. Ruiz,
+  L.~Verdes-Montenegro, and E.~Solano.
+\newblock {Building a VO-compliant Radio Astronomical DAta Model for
+  Single-dish radio telescopes (RADAMS)}.
+\newblock \emph{Experimental Astronomy}, 2012.
+
+\bibitem[Schaaff and Ruiz(2013)]{Schaaff2013}
+A.~Schaaff and J.~E. Ruiz.
+\newblock {Scientific Workflows in the VO}.
+\newblock Technical report, Intenational Virtual Observatory Alliance, 2013.
+
+\bibitem[Schaaff et~al.(2012)Schaaff, Verdes-Montenegro, Ruiz, and
+  Santander-Vela]{Schaaff2012}
+A.~Schaaff, L.~Verdes-Montenegro, J.~E. Ruiz, and J.~D. Santander-Vela.
+\newblock {Scientific Workflows in Astronomy}.
+\newblock In \emph{Astronomical Data Analysis Software and Systems XXI - ASP
+  Conference Series}, 2012.
+
+\bibitem[Verdes-Montenegro et~al.(2010)Verdes-Montenegro, Sulentic, Bergond,
+  Espada, Leon, Lisenfeld, Mart\'{\i}nez-Badenes, Ruiz, Sabater, and
+  Verley]{Verdes-Montenegro2010}
+L.~Verdes-Montenegro, J.~Sulentic, G.~Bergond, D.~Espada, S.~Leon,
+  U.~Lisenfeld, V.~Mart\'{\i}nez-Badenes, J.~E. Ruiz, J.~Sabater, and
+  S.~Verley.
+\newblock {A GALAXY BASELINE: Multiwavelength Study of a Sample of the Most
+  Isolated Galaxies in the Local Universe}.
+\newblock In \emph{Galaxies and their Masks}, pages 379--384, 2010.
+\newblock \doi{10.1007/978-1-4419-7317-7_33}.
+
+\bibitem[Verdes-Montenegro et~al.(2011)Verdes-Montenegro, Ruiz, Portas,
+  Santander-Vela, and de~Le\'{o}n]{Verdes-Montenegro2011}
+L.~Verdes-Montenegro, J.~E. Ruiz, A.~Portas, J.~D. Santander-Vela, and
+  A.~de~Le\'{o}n.
+\newblock {D5.1: Astronomy Workflow Preservation Requirements}.
+\newblock Technical report, Wf4Ever: Advanced Workflow Preservation
+  Technologies for Enhanced Science, 2011.
+\newblock URL \url{http://repo.wf4ever-project.org/dlibra/docmetadata?id=23}.
+
+\bibitem[Verdes-Montenegro et~al.(2013{\natexlab{a}})Verdes-Montenegro,
+  Garrido, S\'{a}nchez-Exp\'{o}sito, Santander-Vela, and
+  Ruiz]{Verdes-Montenegro2013}
+L.~Verdes-Montenegro, J.~Garrido, S.~S\'{a}nchez-Exp\'{o}sito, J.~D.
+  Santander-Vela, and J.~E. Ruiz.
+\newblock {D5.2 : Creation of an astrophysical community of preserved workflow
+  users}.
+\newblock Technical report, Wf4Ever: Advanced Workflow Preservation
+  Technologies for Enhanced Science, 2013{\natexlab{a}}.
+\newblock URL \url{http://repo.wf4ever-project.org/dlibra/docmetadata?id=59}.
+
+\bibitem[Verdes-Montenegro et~al.(2013{\natexlab{b}})Verdes-Montenegro,
+  S\'{a}nchez-Exp\'{o}sito, Garrido, Santander-Vela, and
+  Ruiz]{Verdes-Montenegro2013a}
+L.~Verdes-Montenegro, S.~S\'{a}nchez-Exp\'{o}sito, J.~Garrido, J.~D.
+  Santander-Vela, and J.~E. Ruiz.
+\newblock {D5.3v3: Kinematic modelling of velocity cubes of galaxies}.
+\newblock Technical report, Wf4Ever: Advanced Workflow Preservation
+  Technologies for Enhanced Science, 2013{\natexlab{b}}.
+\newblock URL \url{http://repo.wf4ever-project.org/dlibra/docmetadata?id=63}.
+
+\bibitem[Wolstencroft et~al.(2013)Wolstencroft, Haines, Fellows, Williams,
+  Withers, Owen, Soiland-Reyes, Dunlop, Nenadic, Fisher, Bhagat, Belhajjame,
+  Bacall, Hardisty, {Nieva de la Hidalga}, {Balcazar Vargas}, Sufi, and
+  Goble]{Wolstencroft2013}
+K.~Wolstencroft, R.~Haines, D.~Fellows, A.~Williams, D.~Withers, S.~Owen,
+  S.~Soiland-Reyes, I.~Dunlop, A.~Nenadic, P.~Fisher, J.~Bhagat, K.~Belhajjame,
+  F.~Bacall, A.~Hardisty, A.~{Nieva de la Hidalga}, M.~P. {Balcazar Vargas},
+  S.~Sufi, and C.~Goble.
+\newblock {The Taverna workflow suite: designing and executing workflows of Web
+  Services on the desktop, web or in the cloud}.
+\newblock \emph{Nucleic acids research}, 41\penalty0 (Jul), May 2013.
+\newblock ISSN 1362-4962.
+\newblock \doi{10.1093/nar/gkt328}.
+
+\bibitem[Zhao et~al.(2012)Zhao, Klyne, Holubowicz, Hettne, Ruiz, Roos, and
+  Manuel]{Zhao2009}
+J.~Zhao, G.~Klyne, P.~Holubowicz, K.~Hettne, J.~E. Ruiz, M.~Roos, and
+  G.~Manuel.
+\newblock {RO-Manager: A Tool for Creating and Manipulating Research Objects to
+  Support Reproducibility and Reuse in Sciences}.
+\newblock In \emph{2nd International Workshop on Linked Science}, pages 7--10,
+  2012.
+
+\bibitem[Zw\"{o}lf et~al.(2014)Zw\"{o}lf, Harrison, Garrido, Ruiz, and {Le
+  Petit}]{Zwolf2014}
+C.~M. Zw\"{o}lf, P.~Harrison, J.~Garrido, J.~E. Ruiz, and F.~{Le Petit}.
+\newblock {IVOA Recommendation: PDL - The Parameter Description Language
+  Version 1.0}.
+\newblock Technical report, Intenational Virtual Observatory Alliance, 2014.
+
+\end{thebibliography}

@@ -1,0 +1,72 @@
+This is BibTeX, Version 0.99c (TeX Live 2009)
+The top-level auxiliary file: ClassicThesis.aux
+A level-1 auxiliary file: FrontBackmatter/Titlepage.aux
+A level-1 auxiliary file: FrontBackmatter/Presentation.aux
+A level-1 auxiliary file: FrontBackmatter/Vistobueno.aux
+A level-1 auxiliary file: FrontBackmatter/Declaration.aux
+A level-1 auxiliary file: FrontBackmatter/Publication.aux
+A level-1 auxiliary file: FrontBackmatter/Abstract.aux
+A level-1 auxiliary file: FrontBackmatter/Contents.aux
+A level-1 auxiliary file: Chapters/Chapter01.aux
+A level-1 auxiliary file: Chapters/Chapter02.aux
+A level-1 auxiliary file: Chapters/Chapter03.aux
+A level-1 auxiliary file: Chapters/Chapter04.aux
+A level-1 auxiliary file: Chapters/Chapter05.aux
+A level-1 auxiliary file: Chapters/Chapter06.aux
+A level-1 auxiliary file: Chapters/Chapter07.aux
+A level-1 auxiliary file: Chapters/Chapter08.aux
+A level-1 auxiliary file: Chapters/Chapter09.aux
+A level-1 auxiliary file: Chapters/Chapter10.aux
+A level-1 auxiliary file: Chapters/Chapter11.aux
+A level-1 auxiliary file: Chapters/Chapter12.aux
+A level-1 auxiliary file: Chapters/Chapter13.aux
+A level-1 auxiliary file: Chapters/Conclusions.aux
+A level-1 auxiliary file: Chapters/Conclusiones.aux
+A level-1 auxiliary file: Chapters/Appendix01.aux
+A level-1 auxiliary file: Chapters/Appendix02.aux
+A level-1 auxiliary file: FrontBackmatter/Bibliography.aux
+The style file: abbrvnat.bst
+Database file #1: ClassicThesis.bib
+Warning--there's a number but no volume in Ruiz2014
+You've used 29 entries,
+            2773 wiz_defined-function locations,
+            795 strings with 14020 characters,
+and the built_in function-call counts, 19517 in all, are:
+= -- 1543
+> -- 1894
+< -- 13
++ -- 636
+- -- 603
+* -- 1828
+:= -- 3152
+add.period$ -- 100
+call.type$ -- 29
+change.case$ -- 295
+chr.to.int$ -- 25
+cite$ -- 59
+duplicate$ -- 671
+empty$ -- 1100
+format.name$ -- 634
+if$ -- 3942
+int.to.chr$ -- 5
+int.to.str$ -- 1
+missing$ -- 22
+newline$ -- 166
+num.names$ -- 116
+pop$ -- 583
+preamble$ -- 1
+purify$ -- 259
+quote$ -- 0
+skip$ -- 605
+stack$ -- 0
+substring$ -- 276
+swap$ -- 108
+text.length$ -- 11
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 319
+warning$ -- 1
+while$ -- 116
+width$ -- 0
+write$ -- 404
+(There was 1 warning)

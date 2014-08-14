@@ -15,7 +15,7 @@
 %*******************************************************
 % List of Figures and of the Tables
 %*******************************************************
-\clearpage
+\cleardoublepage
 
 \begingroup 
     \let\clearpage\relax
@@ -31,6 +31,7 @@
     \listoffigures
 
     \vspace*{8ex}
+   \cleardoublepage
 
     %*******************************************************
     % List of Tables
@@ -42,19 +43,20 @@
     \listoftables
         
     \vspace*{8ex}
-%   \newpage
+   \cleardoublepage
     
     %*******************************************************
     % List of Listings
     %*******************************************************      
-	  %\phantomsection 
+    %\phantomsection 
     \refstepcounter{dummy}
     %\addcontentsline{toc}{chapter}{\lstlistlistingname}
     \pdfbookmark[1]{\lstlistlistingname}{lol}
     \lstlistoflistings 
 
     \vspace*{8ex}
-       
+   \cleardoublepage
+   
     %*******************************************************
     % Acronyms
     %*******************************************************
@@ -63,11 +65,12 @@
     \pdfbookmark[1]{Acronyms}{acronyms}
     \markboth{\spacedlowsmallcaps{Acronyms}}{\spacedlowsmallcaps{Acronyms}}
     \chapter*{Acronyms}
-    \begin{acronym}[UML]
-        \acro{DRY}{Don't Repeat Yourself}
+    \begin{acronym}
         \acro{API}{Application Programming Interface}
+        \acro{DRY}{Don't Repeat Yourself}
+        \acro{IVOA}{International Virtual Observatory Alliance}
         \acro{UML}{Unified Modeling Language}
+        \acro{VO}{Virtual Observatory}
+
     \end{acronym}                     
 \endgroup
-
-\cleardoublepage

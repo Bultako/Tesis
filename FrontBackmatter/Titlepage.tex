@@ -1,36 +1,33 @@
 %*******************************************************
-% Titlepage
+% Signed Titlepage 
 %*******************************************************
 \begin{titlepage}
-	% if you want the titlepage to be centered, uncomment and fine-tune the line below (KOMA classes environment)
-	\begin{addmargin}[-1cm]{-3cm}
+\begin{addmargin}[-1cm]{-3cm}
     \begin{center}
-        \large  
+        %\large
+        \vspace*{1.5cm}
+        \includegraphics[width=8cm]{gfx/ugr_formal} \\
+        {\spacedallcaps{Departamento de F\'isica Te\'orica y del Cosmos}} \\
 
-        \hfill
+        \vspace{2cm}
 
-        \vfill
 
-        \begingroup
-            \color{Maroon}\spacedallcaps{\myTitle} \\ \bigskip
-        \endgroup
+        {\spacedallcaps{\textbf{\myTitle}}} \\
+	{\spacedallcaps{\textbf{\mySubtitle}}} 
 
-        \spacedlowsmallcaps{\myName}
+ \bigskip
 
-        \vfill
+        \vspace{7.5cm}
+        \spacedallcaps{\myName}  \\ 
+	\spacedlowsmallcaps{\myDepartment} \\ 
+	\spacedlowsmallcaps{\myUni}
+        \vspace{1.5cm}
 
-        \includegraphics[width=6cm]{gfx/TFZsuperellipse_bw} \\ \medskip
+      	\spacedallcaps{Tesis Doctoral}
 
-        \mySubtitle \\ \medskip   
-        %\myDegree \\
-        %\myDepartment \\                            
-        %\myFaculty \\
-        %\myUni \\ \bigskip
 
-        \myTime\ -- \myVersion
 
-        \vfill                      
 
-    \end{center}  
-  \end{addmargin}       
+    \end{center}
+\end{addmargin}      
 \end{titlepage}   

@@ -35,13 +35,13 @@
 %    * See classicthesis-preamble.sty for useful commands
 % **************************************************************************************************************
 % To Do:
-%		 * [high] Check this out: http://www.golatex.de/koma-script-warnung-in-verbindung-mit-listings-package-t2058.html
+%    * [high] Check this out: http://www.golatex.de/koma-script-warnung-in-verbindung-mit-listings-package-t2058.html
 %    * [medium] mathbb in section-titles/chapter-titles => disappears somehow in headlines!!!
 % **************************************************************************************************************
 \documentclass[ twoside,openright,titlepage,numbers=noenddot,headinclude,%1headlines,% letterpaper a4paper
                 footinclude=true,cleardoublepage=empty,abstractoff, % <--- obsolete, remove (todo)
-                BCOR=5mm,paper=a4,fontsize=11pt,%11pt,a4paper,%
-                ngerman,american,%
+                BCOR=5mm,paper=a4,fontsize=11pt,
+                spanish,american,
                 ]{scrreprt}
 
 %********************************************************************
@@ -49,18 +49,19 @@
 %*******************************************************
 \input{classicthesis-config}
 
+
 %********************************************************************
 % Hyphenation
 %*******************************************************
 %\hyphenation{put special hyphenation here}
 
 % ********************************************************************
-% GO!GO!GO! MOVE IT!
+% Start
 %*******************************************************
 \begin{document}
 \frenchspacing
 \raggedbottom
-\selectlanguage{american} % american ngerman
+\selectlanguage{american} 
 %\renewcommand*{\bibname}{new name}
 %\setbibpreamble{}
 \pagenumbering{roman}
@@ -68,14 +69,14 @@
 %********************************************************************
 % Frontmatter
 %*******************************************************
-\include{FrontBackmatter/DirtyTitlepage}
 \include{FrontBackmatter/Titlepage}
-\include{FrontBackmatter/Titleback}
-\cleardoublepage\include{FrontBackmatter/Dedication}
-%\cleardoublepage\include{FrontBackmatter/Foreword}
-\cleardoublepage\include{FrontBackmatter/Abstract}
+%\include{FrontBackmatter/Titleback}
+\include{FrontBackmatter/Presentation}
+\cleardoublepage\include{FrontBackmatter/Vistobueno}
+\cleardoublepage\include{FrontBackmatter/Declaration}
 \cleardoublepage\include{FrontBackmatter/Publication}
-\cleardoublepage\include{FrontBackmatter/Acknowledgments}
+\cleardoublepage\include{FrontBackmatter/Abstract}
+
 \pagestyle{scrheadings}
 \cleardoublepage\include{FrontBackmatter/Contents}
 %********************************************************************
@@ -84,36 +85,92 @@
 \pagenumbering{arabic}
 %\setcounter{page}{90}
 % use \cleardoublepage here to avoid problems with pdfbookmark
+
 \cleardoublepage
-\part{Some Kind of Manual}
+\begin{addmargin}[-1cm]{-3cm}
+%\ctparttext{You can put some informational part preamble text here.}}
+\part{Introduction}
+\end{addmargin}
+
+%Reproducibility and re-use in e-Science
+%Complex datasets in Astronomy
 \include{Chapters/Chapter01}
-\cleardoublepage
-\ctparttext{You can put some informational part preamble text here. 
-Illo principalmente su nos. Non message \emph{occidental} angloromanic
-da. Debitas effortio simplificate sia se, auxiliar summarios da que,
-se avantiate publicationes via. Pan in terra summarios, capital
-interlingua se que. Al via multo esser specimen, campo responder que
-da. Le usate medical addresses pro, europa origine sanctificate nos se.}
-\part{The Showcase}
 \include{Chapters/Chapter02}
-%\addtocontents{toc}{\protect\clearpage} % <--- just debug stuff, ignore
+
+\cleardoublepage
+\begin{addmargin}[-1cm]{-3cm}
+%\ctparttext{You can put some informational part preamble text here.}}
+\part{Methods and Materials}
+\end{addmargin}
+
+%The Virtual Observatory
+%Scientific Workflows
+%IPython Notebooks
+%Web-based Collaborative Platforms
+
 \include{Chapters/Chapter03}
-%\include{multiToC} % <--- just debug stuff, ignore for your documents
+\include{Chapters/Chapter04}
+\include{Chapters/Chapter05}
+\include{Chapters/Chapter06}
+
+\cleardoublepage
+\begin{addmargin}[-1cm]{-3cm}
+%\ctparttext{You can put some informational part preamble text here.}}
+\part{Developments and contributions}
+\end{addmargin}
+
+%Interoperability standards
+%Prototype archives
+%Tools
+
+\include{Chapters/Chapter07}
+\include{Chapters/Chapter08}
+\include{Chapters/Chapter09}
+
+\cleardoublepage
+\begin{addmargin}[-1cm]{-3cm}
+%\ctparttext{You can put some informational part preamble text here.}}
+\part{Use Cases Illustration}
+\end{addmargin}
+
+%Tabulars
+%Images
+%Datacubes
+%Documents
+
+\include{Chapters/Chapter10}
+\include{Chapters/Chapter11}
+\include{Chapters/Chapter12}
+\include{Chapters/Chapter13}
+
+\cleardoublepage
+\begin{addmargin}[-1cm]{-3cm}
+%\ctparttext{You can put some informational part preamble text here.}}
+\part{Conclusions}
+\end{addmargin}
+
+\include{Chapters/Conclusions}
+\include{Chapters/Conclusiones}
+
 % ********************************************************************
 % Backmatter
 %*******************************************************
 \appendix
 \cleardoublepage
+\begin{addmargin}[-1cm]{-3cm}
 \part{Appendix}
-\include{Chapters/Chapter0A}
+\end{addmargin}
+
+\include{Chapters/Appendix01}
+\include{Chapters/Appendix02}
+
 %********************************************************************
 % Other Stuff in the Back
 %*******************************************************
-\cleardoublepage\include{FrontBackmatter/Bibliography}
-\cleardoublepage\include{FrontBackmatter/Colophon}
-\cleardoublepage\include{FrontBackmatter/Declaration}
+\cleardoublepage
+ \include{FrontBackmatter/Bibliography}
 % ********************************************************************
-% Game Over: Restore, Restart, or Quit?
+% End
 %*******************************************************
 \end{document}
 % ********************************************************************
